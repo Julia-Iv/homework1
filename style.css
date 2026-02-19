@@ -1,7 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .top {
-    background-image: url(./image/Rectangle\ 111002150.png);
+    background-image: url(./image/top.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
+    height: 800px;
+}
+
+.top__content {
+    width: 769px;
+    height: 358px;
+    padding-top: 196px;
+    padding-left: 120px;
+}
+
+.top__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.top__description {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 24px;
+}
+.top__regular {
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+
+}
+
+.form-button {
+    width: 247;
+    height: 66;
+    opacity: 1;
+    gap: 10px;
+    background-color: #202027;
+    border-width: 1px;
+    border-radius: 60px;
+    padding-top: 16px;
+    padding-right: 65px;
+    padding-bottom: 16px;
+    padding-left: 65px;
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+color: #ffff;
+text-align: center;
+margin-top: 48px;
+}
+.form-button:hover {
+    background-color: #ffff;
+    color: #202027;
 }
