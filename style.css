@@ -214,6 +214,13 @@ transform: translate(942px, -197px);
     height: 473px;
     background-color: #FFF;
     border-radius: 30px;
+    overflow: hidden;
+}
+.catalog {
+    transition: transform .3s;
+}
+.catalog:hover {
+    transform: scale(1,2);
 }
 .catalog__img {
     width: 378px;
