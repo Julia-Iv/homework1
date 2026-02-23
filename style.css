@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+.center {
+    padding-left: 119px;
+    padding-right: 120px;
+}
 .top {
     background-image: url(./image/top.png);
     background-repeat: no-repeat;
@@ -150,4 +153,103 @@
 .form-button:hover {
     background-color: #ffff;
     color: #202027;
+}
+.games {
+    background-image: url(./image/Rectangle\ 111002149.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1470px;
+    position: relative;
+}
+.games__title {
+font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #FFF;
+padding-top: 94px;
+}
+.games__description {
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #FFF;
+white-space: pre-wrap;
+padding-top: 24px;
+padding-bottom: 72px;
+}
+.games__star11 {
+position: absolute;
+background-size: cover;
+border: 1px;
+transform: translate(-90px, 770px);
+}
+.games__star12 {
+position: absolute;
+background-size: cover;
+border: 1px;
+transform: translate(-75px, 822px);
+}
+.games__star1 {
+position: absolute;
+background-size: cover;
+border: 1px;
+transform: translate(942px, -197px);
+}
+.games-catalog {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.catalog {
+    width: 378px;
+    height: 473px;
+    background-color: #FFF;
+    border-radius: 30px;
+}
+.catalog__img {
+    width: 378px;
+    height: 314px;
+    border-radius: 30px;
+}
+.catalog__number {
+    width: 108px;
+    opacity: 1;
+    border-radius: 52.58px;
+    background-color: #f7f7f7;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    color: #202027;
+    margin-top: 32px;
+    margin-left: 32px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0px;
+    vertical-align: bottom;
+    text-align: center;
+}
+.catalog__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 16px;
+    margin-left: 32px;
+
 }
