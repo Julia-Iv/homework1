@@ -203,7 +203,7 @@ transform: translate(-75px, 822px);
 position: absolute;
 background-size: cover;
 border: 1px;
-transform: translate(942px, -197px);
+transform: translate(938px, -250px);
 z-index: 2;
 }
 .games-catalog {
@@ -222,6 +222,7 @@ z-index: 2;
     background-color: #FFF;
     border-radius: 30px;
     overflow: hidden;
+    margin-top: 7px;
 }
 
 .catalog {
@@ -275,6 +276,7 @@ z-index: 2;
     background-color: #FFF;
     border-radius: 30px;
     overflow: hidden;
+    margin-top: 7px;
 }
 .catalog1 {
     transition: transform .1s;
@@ -323,10 +325,11 @@ z-index: 2;
 }
 .catalog2 {
     width: 378px;
-    height: 530px;
+    height: 551px;
     background-color: #FFF;
     border-radius: 30px;
     overflow: hidden;
+    margin-top: -32px;
 }
 .catalog2 {
     transition: transform .1s;
