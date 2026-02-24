@@ -161,6 +161,7 @@
     background-size: cover;
     height: 1470px;
     position: relative;
+    z-index: 1;
 }
 .games__title {
 font-family: Montserrat;
@@ -203,11 +204,17 @@ position: absolute;
 background-size: cover;
 border: 1px;
 transform: translate(942px, -197px);
+z-index: 2;
 }
 .games-catalog {
+    position: absolute;
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 32px;
+    column-gap: 32px;
+    z-index: 3;
 }
 .catalog {
     width: 378px;
@@ -218,10 +225,10 @@ transform: translate(942px, -197px);
 }
 
 .catalog {
-    transition: transform .3s;
+    transition: transform .1s;
 }
 .catalog:hover {
-    transform: scale(1,2);
+    transform: scale(1.1);
 }
 .catalog__img {
     width: 378px;
@@ -269,6 +276,13 @@ transform: translate(942px, -197px);
     border-radius: 30px;
     overflow: hidden;
 }
+.catalog1 {
+    transition: transform .1s;
+}
+.catalog1:hover {
+    transform: scale(1.1);
+}
+
 .catalog1__title {
     white-space: pre-wrap;
     font-family: Montserrat;
@@ -314,6 +328,13 @@ transform: translate(942px, -197px);
     border-radius: 30px;
     overflow: hidden;
 }
+.catalog2 {
+    transition: transform .1s;
+}
+.catalog2:hover {
+    transform: scale(1.1);
+}
+
 .catalog2__title {
     white-space: pre-wrap;
     font-family: Montserrat;
