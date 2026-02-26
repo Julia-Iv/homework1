@@ -116,6 +116,7 @@
     letter-spacing: 0px;
     vertical-align: middle;
     margin-top: 24px;
+    margin-bottom: 58px;
 }
 
 .top__regular {
@@ -148,6 +149,7 @@
     color: #ffff;
     text-align: center;
     margin-top: 48px;
+    text-decoration: none;
 }
 
 .form-button:hover {
@@ -215,6 +217,7 @@ z-index: 2;
     row-gap: 32px;
     column-gap: 32px;
     z-index: 3;
+    width: 1201px;
 }
 .catalog {
     width: 378px;
@@ -223,6 +226,7 @@ z-index: 2;
     border-radius: 30px;
     overflow: hidden;
     margin-top: 7px;
+    text-decoration: none;
 }
 
 .catalog {
@@ -268,6 +272,7 @@ z-index: 2;
     vertical-align: middle;
     margin-top: 16px;
     margin-left: 32px;
+    color: #202027;
 
 }
 .catalog1 {
@@ -277,6 +282,7 @@ z-index: 2;
     border-radius: 30px;
     overflow: hidden;
     margin-top: 7px;
+    text-decoration: none;
 }
 .catalog1 {
     transition: transform .1s;
@@ -296,6 +302,7 @@ z-index: 2;
     vertical-align: middle;
     margin-left: 32px;
     margin-top: -16px;
+    color: #202027;
 }
 .catalog1__img {
     width: 378px;
@@ -330,6 +337,7 @@ z-index: 2;
     border-radius: 30px;
     overflow: hidden;
     margin-top: -32px;
+    text-decoration: none;
 }
 .catalog2 {
     transition: transform .1s;
@@ -349,6 +357,7 @@ z-index: 2;
     vertical-align: middle;
     margin-left: 32px;
     margin-top: -16px;
+    color: #202027;
 }
 .catalog2__img {
     width: 378px;
