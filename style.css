@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 .center {
     padding-left: 119px;
     padding-right: 120px;
 }
+
 .top {
     background-image: url(./image/top.png);
     background-repeat: no-repeat;
@@ -14,75 +16,85 @@
     height: 800px;
     position: relative;
 }
+
 .top__vector {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translateX(1105px);  
+    transform: translateX(1105px);
 }
+
 .top__star2 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(63px, 94px);  
+    transform: translate(63px, 94px);
 }
+
 .top__star3 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(156px, 69px);  
+    transform: translate(156px, 69px);
 }
+
 .top__star5 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(948px, 538px);  
+    transform: translate(948px, 538px);
 }
+
 .top__star4 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(1013px, 568px);  
+    transform: translate(1013px, 568px);
 }
+
 .top__vector4780 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translateX(930px);  
+    transform: translateX(930px);
 }
+
 .top__vector4781 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(1140px, 254px);  
+    transform: translate(1140px, 254px);
 }
+
 .top__vector4782 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(1300px, 379px);  
+    transform: translate(1300px, 379px);
 }
+
 .top__vector4788 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(1320px, 468px);  
+    transform: translate(1320px, 468px);
 }
+
 .top__vector4791 {
     position: absolute;
     background-size: cover;
     border-color: #202027;
     border: 1px;
-    transform: translate(1420px, 663px);  
+    transform: translate(1420px, 663px);
 }
 
 
@@ -155,7 +167,9 @@
 .form-button:hover {
     background-color: #ffff;
     color: #202027;
+    font-weight: 600;
 }
+
 .games {
     background-image: url(./image/Rectangle\ 111002149.png);
     background-repeat: no-repeat;
@@ -165,49 +179,55 @@
     position: relative;
     z-index: 1;
 }
+
 .games__title {
-font-family: Montserrat;
-font-weight: 700;
-font-style: Bold;
-font-size: 64px;
-line-height: 100%;
-letter-spacing: 0px;
-vertical-align: middle;
-color: #FFF;
-padding-top: 94px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #FFF;
+    padding-top: 94px;
 }
+
 .games__description {
-font-family: Montserrat;
-font-weight: 400;
-font-style: Regular;
-font-size: 24px;
-line-height: 32px;
-letter-spacing: 0px;
-vertical-align: middle;
-color: #FFF;
-white-space: pre-wrap;
-padding-top: 24px;
-padding-bottom: 72px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #FFF;
+    white-space: pre-wrap;
+    padding-top: 24px;
+    padding-bottom: 72px;
 }
+
 .games__star11 {
-position: absolute;
-background-size: cover;
-border: 1px;
-transform: translate(-90px, 770px);
+    position: absolute;
+    background-size: cover;
+    border: 1px;
+    transform: translate(-90px, 770px);
 }
+
 .games__star12 {
-position: absolute;
-background-size: cover;
-border: 1px;
-transform: translate(-75px, 822px);
+    position: absolute;
+    background-size: cover;
+    border: 1px;
+    transform: translate(-75px, 822px);
 }
+
 .games__star1 {
-position: absolute;
-background-size: cover;
-border: 1px;
-transform: translate(938px, -250px);
-z-index: 2;
+    position: absolute;
+    background-size: cover;
+    border: 1px;
+    transform: translate(938px, -250px);
+    z-index: 2;
 }
+
 .games-catalog {
     position: absolute;
     display: flex;
@@ -219,6 +239,7 @@ z-index: 2;
     z-index: 3;
     width: 1201px;
 }
+
 .catalog {
     width: 378px;
     height: 473px;
@@ -232,14 +253,17 @@ z-index: 2;
 .catalog {
     transition: transform .1s;
 }
+
 .catalog:hover {
     transform: scale(1.1);
 }
+
 .catalog__img {
     width: 378px;
     height: 314px;
     border-radius: 30px;
 }
+
 .catalog__number {
     width: 108px;
     opacity: 1;
@@ -261,6 +285,7 @@ z-index: 2;
     vertical-align: bottom;
     text-align: center;
 }
+
 .catalog__title {
     white-space: pre-wrap;
     font-family: Montserrat;
@@ -275,6 +300,7 @@ z-index: 2;
     color: #202027;
 
 }
+
 .catalog1 {
     width: 378px;
     height: 512px;
@@ -284,9 +310,11 @@ z-index: 2;
     margin-top: 7px;
     text-decoration: none;
 }
+
 .catalog1 {
     transition: transform .1s;
 }
+
 .catalog1:hover {
     transform: scale(1.1);
 }
@@ -304,11 +332,13 @@ z-index: 2;
     margin-top: -16px;
     color: #202027;
 }
+
 .catalog1__img {
     width: 378px;
     height: 314px;
     border-radius: 30px;
 }
+
 .catalog1__number {
     width: 108px;
     opacity: 1;
@@ -330,6 +360,7 @@ z-index: 2;
     vertical-align: bottom;
     text-align: center;
 }
+
 .catalog2 {
     width: 378px;
     height: 551px;
@@ -339,9 +370,11 @@ z-index: 2;
     margin-top: -32px;
     text-decoration: none;
 }
+
 .catalog2 {
     transition: transform .1s;
 }
+
 .catalog2:hover {
     transform: scale(1.1);
 }
@@ -359,11 +392,13 @@ z-index: 2;
     margin-top: -16px;
     color: #202027;
 }
+
 .catalog2__img {
     width: 378px;
     height: 314px;
     border-radius: 30px;
 }
+
 .catalog2__number {
     width: 108px;
     opacity: 1;
@@ -384,4 +419,15 @@ z-index: 2;
     letter-spacing: 0px;
     vertical-align: bottom;
     text-align: center;
+}
+@media (max-width: 767px) {    
+    .top {
+    background-image: url(./image/top-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+
+}
 }
