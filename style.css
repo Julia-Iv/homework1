@@ -428,6 +428,102 @@
     background-size: cover;
     height: 700px;
     position: relative;
+}
+.top__vector {
+    display: none;
+}
+.top__star2 {
+    display: none;
+}
+.top__star3 {
+    display: none;
+}
+.top__star4 {
+    display: none;
+}
+.top__star5 {
+    display: none;
+}
+.top__vector4780 {
+    display: none;
+}
+.top__vector4781 {
+    display: none;
+}
+.top__vector4782 {
+    display: none;
+}
+.top__vector4788 {
+    display: none;
+}
+.top__vector4791 {
+    display: none;
+}
+.top__content {
+    width: 296px;
+    padding-top: 147px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.top__title {
+    width: 296px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+.top__description {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 296px;
+    padding-top: 24px
+}
+.top__regular {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
 
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-left: 46px;
+gap: 10px;
+border-width: 1px;
+border-radius: 60px;
+padding-top: 16px;
+padding-right: 28px;
+padding-bottom: 16px;
+padding-left: 28px;
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 142%;
+letter-spacing: 0%;
+text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+
+
+}
+.games {
+    display: none;
 }
 }
