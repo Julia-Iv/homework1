@@ -1,8 +1,8 @@
 //задание 1
 let a = 10;
 alert (a);
-let b = 20;
-alert (b);
+a = 20;
+alert (a);
 
 //задание 2
 const iphone = 2007;
