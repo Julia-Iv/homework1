@@ -497,6 +497,7 @@
     padding-bottom: 305px;
 }
 .catalog-mg__title1 {
+    white-space: pre-wrap;
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -517,6 +518,20 @@
     vertical-align: middle;
     padding-top: 24px;
     padding-bottom: 56px;
+}
+.catalog-mg__description2 {
+    width: 457px;
+    white-space: pre-wrap;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    padding-top: 24px;
+    padding-bottom: 56px;
+    padding-left: 48px;
 }
 .catalog-mg__button {
     width: 247;
