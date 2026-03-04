@@ -422,6 +422,52 @@
     vertical-align: bottom;
     text-align: center;
 }
+
+.games-mg {
+    background-image: url(./image/top-minigames.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 3500px;
+    position: relative;
+}
+
+
+.games-mg__star6 {
+    position: absolute;
+    background-size: cover;
+    border-color: #BCEC30;
+    border: 1px;
+    top: 126px;
+    right: 45px;
+}
+.games-mg__star7 {
+    position: absolute;
+    background-size: cover;
+    border-color: #BCEC30;
+    border: 1px;
+    top: 93px;
+    right: 124px;
+}
+
+.games-mg__star8 {
+    position: absolute;
+    background-size: cover;
+    border-color: #BCEC30;
+    border: 1px;
+    top: 3336px;
+    right: 65px;
+}
+.games-mg__star10 {
+    position: absolute;
+    background-size: cover;
+    border-color: #BCEC30;
+    border: 1px;
+    top: 3414px;
+    right: 45px;
+}
+
+
 @media (max-width: 767px) {    
     .top {
     background-image: url(./image/top-mobile.png);
