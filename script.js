@@ -146,3 +146,27 @@ if (isNaN(result)) {
  }
 }
 }
+
+//дополнительное задание 2
+
+let clientOs = String(prompt('Введите операционную систему: IOS или Android'));
+clientOs = clientOs.toLocaleLowerCase();
+if (clientOs === 'IOS') {
+    console.log('Установите версию приложения для IOS по ссылке');
+} else {
+    console.log('Установите версию приложения для Android по ссылке');
+}
+
+//дополнительное задание 3
+let clientOs1 = prompt('IOS или Android');
+let clientDeviceYear = prompt('Введите год выпуска');
+if (clientOs1 === 'IOS' && clientDeviceYear <= 2015) {
+    console.log('Установите облегченную версию приложения для IOS');
+} else if (clientOs1 === 'IOS') {
+    console.log('Установите версию приложения для IOS');
+}
+  else if (clientOs1 === 'Android' && clientDeviceYear <= 2015) {
+    console.log('Установите облегченную версию приложения для Android');
+} else if (clientOs1 ==='Android') {
+   console.log('Установите версию приложения для Android');
+}
