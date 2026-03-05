@@ -1,3 +1,4 @@
+/*HW2-JS
 //задание 1
 let a = 10;
 alert (a);
@@ -60,4 +61,88 @@ console.log(user['isAdmin']);
 
 //задание 10
 let userName = prompt ('Ваше Имя?');
-alert(`Привет ${userName}!`);
+alert(`Привет ${userName}!`);*/
+
+//HW-3
+//задание 1
+
+let password = 'пароль';
+let enterPassword = prompt('Введите пароль');
+if (enterPassword === password) {
+    console.log ('Пароль введен верно');
+} else {
+    console.log('Пароль введен неверно');
+}
+
+//задание 2
+
+let c = Number(prompt('Введите число'));
+if (c>=0 && c<=10) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+
+//задание 3
+
+let d = Number(prompt('Введите первое число'));
+let e = Number(prompt('Введите второе число'));
+if (d>=100 || e>=100) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+
+//задание 4
+
+let a = '2';
+let b = '3';
+alert(Number(a) + Number(b));
+
+//задание 5
+
+let mothNumber = Number(prompt('Введите номер месяца'));
+switch (mothNumber) {
+    case 12:
+    case 1:
+    case 2:
+        console.log('Зима');        
+        break;
+    case 3:
+    case 4:
+    case 5:
+        console.log('Весна');        
+        break;
+    case 6:
+    case 7:
+    case 8:
+        console.log('Лето');        
+        break;
+    case 9:
+    case 10:
+    case 11:
+        console.log('Осень');        
+        break;
+    default:
+        console.log('Такого месяца нет');
+        break;
+}
+
+//дополнительное задание 1
+
+let anyNumber = prompt('Пожалуйста, введите любое число');
+if (anyNumber === "") {
+    console.log('Поле не должно быть пустым');
+} else {
+let result = Number(anyNumber);
+if (isNaN(result)) {
+    console.log('Не является числом');
+} else {
+    if (result % 2 === 0) { 
+   console.log('Четное');
+  }
+ else {
+    console.log('Нечетное');
+ }
+}
+}
