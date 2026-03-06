@@ -180,6 +180,8 @@
     background-color: #ffff;
     color: #202027;
     font-weight: 600;
+    border: solid 1px #000;
+
 }
 
 .games {
@@ -577,6 +579,7 @@
     background-color: #ffff;
     color: #202027;
     font-weight: 600;
+    border: solid 1px #000;
 }
 .footer {
     background-repeat: no-repeat;
