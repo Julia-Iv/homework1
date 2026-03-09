@@ -588,6 +588,9 @@
     font-weight: 600;
     border: solid 1px #000;
 }
+.mob-games-catalog {
+    display: none;
+}
 .footer {
     background-repeat: no-repeat;
     background-position: center;
@@ -608,7 +611,12 @@
 
 }
 
-@media (max-width: 767px) {    
+@media (max-width: 767px) {   
+    .center {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 185px);
+    
+} 
     .top {
     background-image: url(./image/top-mobile.png);
     background-repeat: no-repeat;
@@ -758,4 +766,138 @@ text-align: center;
 .games {
     display: none;
 }
+.games-mg__catalog {
+    display: none;
+}
+.games-mg__star {
+    display: none;
+}
+.games-mg {
+    background-image: url(./image/mob-games-mg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 3740px;
+    position: relative;
+}
+.games-mg__title {
+    width: 343px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.mob-games-catalog {
+    display: block;
+}
+.mob-games-catalog {
+    position: absolute;
+}
+.mob-catalog {
+    width: 343px;
+    height: 528px;
+    background-color: #FFF;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.mob-catalog1 {
+    white-space: pre-wrap;
+    width: 343px;
+    height: 567px;
+    background-color: #FFF;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.mob-catalog2 {
+    white-space: pre-wrap;
+    width: 343px;
+    height: 606px;
+    background-color: #FFF;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.mob-catalog3 {
+    white-space: pre-wrap;
+    width: 343px;
+    height: 626px;
+    background-color: #FFF;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+.mob-catalog__img {
+    width: 343;
+    height: 284.9259338378906;
+    opacity: 1;
+    border-radius: 30px;
+}
+.mob-catalog__title {
+    white-space: pre-wrap;
+    padding-top: 28px;
+    padding-left: 29px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+.mob-catalog__description {
+    width: 249px;
+    padding-left: 29px;
+    padding-right: 65px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+.mob-catalog-mg__button {
+    width: 285px;
+    height: 55px;
+    opacity: 1;
+    gap: 10px;
+    background-color: #202027;
+    border-width: 1px;
+    border-radius: 60px;
+    padding-top: 16px;
+    padding-right: 110px;
+    padding-bottom: 16px;
+    padding-left: 110px;
+    margin-left: 29px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: SemiBold;
+    font-size: 16px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 48px;
+    text-decoration: none;
+}
+.mob-catalog-mg__button:hover {
+    background-color: #ffff;
+    color: #202027;
+    font-weight: 600;
+    border: solid 1px #000;
+}
+
 }
