@@ -777,14 +777,14 @@ text-align: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 3740px;
+    height: 3720px;
     position: relative;
 }
 .games-mg__title {
     width: 343px;
     padding-top: 48px;
     padding-bottom: 48px;
-    padding-left: 30px;
+    padding-left: 10px;
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -873,7 +873,7 @@ text-align: center;
 .mob-catalog__title {
     white-space: pre-wrap;
     padding-top: 28px;
-    padding-left: 29px;
+    padding-left: 20px;
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -1098,6 +1098,10 @@ text-align: center;
     letter-spacing: 0px;
     text-align: center;
     vertical-align: middle;
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer {
+    height: 100px;
 }
 }
