@@ -588,7 +588,7 @@
     font-weight: 600;
     border: solid 1px #000;
 }
-.mob-games-catalog {
+.mob-games-mg {
     display: none;
 }
 .footer {
@@ -613,8 +613,8 @@
 
 @media (max-width: 767px) {   
     .center {
-    padding-left: calc(50% - 180px);
-    padding-right: calc(50% - 185px);
+    padding-left: calc(50% - 171.5px);
+    padding-right: calc(50% - 171.5px);
     
 } 
     .top {
@@ -766,24 +766,27 @@ text-align: center;
 .games {
     display: none;
 }
-.games-mg__catalog {
+.games-mg {
     display: none;
 }
 .games-mg__star {
     display: none;
 }
-.games-mg {
+.mob-games-mg {
+    display: block;
+}
+.mob-games-mg {
     background-image: url(./image/mob-games-mg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 3720px;
+    height: 3750px;
     position: relative;
 }
-.games-mg__title {
+.mob-games-mg__title {
     width: 343px;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 10px;
     font-family: Montserrat;
     font-weight: 700;
@@ -792,6 +795,7 @@ text-align: center;
     line-height: 100%;
     letter-spacing: 0px;
     vertical-align: middle;
+    color: #FFF;
 }
 
 .mob-games-catalog {
@@ -977,7 +981,7 @@ text-align: center;
 }
 
 
-.mob-catalog-mg__button {
+.mob-catalog__button {
     width: 285px;
     height: 55px;
     opacity: 1;
@@ -999,13 +1003,13 @@ text-align: center;
     margin-top: 48px;
     text-decoration: none;
 }
-.mob-catalog-mg__button:hover {
+.mob-catalog__button:hover {
     background-color: #ffff;
     color: #202027;
     font-weight: 600;
     border: solid 1px #000;
 }
-.mob-catalog-mg1__button {
+.mob-catalog1__button {
     width: 285px;
     height: 55px;
     opacity: 1;
@@ -1027,13 +1031,13 @@ text-align: center;
     margin-top: 48px;
     text-decoration: none;
 }
-.mob-catalog-mg1__button:hover {
+.mob-catalog1__button:hover {
     background-color: #ffff;
     color: #202027;
     font-weight: 600;
     border: solid 1px #000;
 }
-.mob-catalog-mg2__button {
+.mob-catalog2__button {
     width: 285px;
     height: 55px;
     opacity: 1;
@@ -1055,13 +1059,13 @@ text-align: center;
     margin-top: 48px;
     text-decoration: none;
 }
-.mob-catalog-mg2__button:hover {
+.mob-catalog2__button:hover {
     background-color: #ffff;
     color: #202027;
     font-weight: 600;
     border: solid 1px #000;
 }
-.mob-catalog-mg3__button {
+.mob-catalog3__button {
     width: 285px;
     height: 55px;
     opacity: 1;
@@ -1083,7 +1087,7 @@ text-align: center;
     margin-top: 48px;
     text-decoration: none;
 }
-.mob-catalog-mg3__button:hover {
+.mob-catalog3__button:hover {
     background-color: #ffff;
     color: #202027;
     font-weight: 600;
