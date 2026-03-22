@@ -315,7 +315,7 @@ for (let i = 1; i < 10; i++) {
   }
    */ 
 
-
+/*
   // Homework 5
   
   // Задание 1. Напишите функцию, которая возвращает меньшее из двух чисел.
@@ -434,3 +434,92 @@ else if (age >= 13)
  console.log(circle2.methodGetArea());
  console.log(circle1.methodGetPerimeter());
  console.log(circle2.methodGetPerimeter());
+
+ */
+
+
+ //HOMEWORK 6
+
+ //Задание 1. Дан массив: [1, 5, 4, 10, 0, 3].Создайте цикл, который будет
+ //выводить элементы массива до тех пор, пока не встретит значение 10. 
+ // После вывода значения 10 в консоль цикл должен прекратить свою работу.
+
+ const numbs = [1, 5, 4, 10, 0, 3];
+ for ( i = 0; i < numbs.length; i++ ) {
+        console.log(numbs[i]);
+    if (numbs[i] === 10) {
+        break;
+    }    
+ }
+
+ //Задание 2. Дан массив: [1, 5, 4, 10, 0, 3].
+ // Найдите индекс значения 4 в этом массиве.
+
+ const arr = [1, 5, 4, 10, 0, 3];
+ for ( i = 0; i < arr.length; i++)
+ {
+    if ( arr[i] == 4) {
+        console.log(i);
+        break;
+    }
+ }
+
+ //задание 3. Дан массив чисел: [1, 3, 5, 10, 20].
+ // С помощью метода join выведите элементы массива 
+ // через пробел (пустую строку ' ').
+
+ const numb = [1, 3, 5, 10, 20];
+ console.log(numb.join(' '));
+
+ //Задание 4. С помощью вложенных циклов создайте многомерный массив вида: 
+ // [[1, 1, 1], [1, 1, 1], [1, 1, 1]].
+
+let numb1 = [];
+for (let i = 0; i < 3; i++) {
+    const numb2 = []
+    for (let i = 0; i < 3; i++) {
+      numb2.push(1);
+   }
+   numb1.push(numb2);
+}
+console.log(numb1);
+
+//Задание 5. Дан массив: [1, 1, 1]. Добавьте в конец массива значения 2, 2, 2.
+
+const array = [1, 1, 1];
+array.push(2, 2, 2);
+console.log(array);
+
+//Задание 6. Дан массив: [9, 8, 7, 'a', 6, 5]. С помощью метода sort отсортируйте
+//  массив и удалите букву 'a'из массива. Затем выведите массив.
+
+const array1 = [9, 8, 7, 'a', 6, 5];
+array1.sort();
+console.log(array1);
+const filterArray1 = array1.filter((array) => array !=='a');
+console.log(filterArray1);
+
+//Задание 7. Дан массив: [9, 8, 7, 6, 5]. Попросите пользователя угадать число 
+// с помощью метода prompt. Если значение, которое ввел пользователь, есть в массиве, 
+// выведите в alert«Угадал», в противном случае — «Не угадал».
+
+const array2 = [9, 8, 7, 6, 5];
+const user = +prompt('Угадай число'); {
+if (array2.includes(user)){
+    alert('Угадал');
+}else {
+    alert('Не угадал');
+}
+}
+
+//Задание 8. Дана строка: 'abcdef'. Выведите в консоль 'fedcba'
+
+let str = 'abcdef';
+str = str.split('');
+console.log(str);
+str.reverse();
+str = str.join('');
+console.log(str);
+
+
+
