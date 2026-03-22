@@ -11,6 +11,7 @@ function miniGames1() {
         guessNumber = Number(guessNumber);
         if (guessNumber === randomNumber) {
             alert ("Молодец! Ты угадал числою");
+            break;
         } else if (guessNumber > randomNumber) {
             alert ("Твое число больше загаданного, попробуй еще угадать!");
         } else if (guessNumber < randomNumber) {
