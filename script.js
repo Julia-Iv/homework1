@@ -521,5 +521,86 @@ str.reverse();
 str = str.join('');
 console.log(str);
 
+//Задание 9. Дан массив: [[1, 2, 3],[4, 5, 6]].
+//Выведите в консоль массив вида: [1, 2, 3, 4, 5, 6].
 
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const comb = [...arr1, ...arr2];
+console.log(comb);
 
+//Задание 10. Создайте массив с произвольными числами (диапазон от 1 до 10). 
+//Переберите его с помощью цикла for. В каждой итерации выведите в консоль 
+//сумму текущего и следующего элементов массива.
+
+const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < number.length; i++) {
+    if (number[i + 1]){
+    console.log(number[i] + number[i + 1]);
+    }
+}
+
+//Задание 11. Создайте функцию, которая принимает на вход массив целых чисел, 
+//а возвращает массив квадратов этих чисел.
+
+function square(arr) {
+    return arr.map(item => item **2);
+}
+
+console.log(square([2, 4, 5]));
+
+//Задание 12. Создайте функцию, которая принимает на вход массив строк,
+// а возвращает массив длины слов.
+
+function strLenght(arr) {
+    return arr.map(item => item.length);
+}
+
+console.log(strLenght(['Привет', 'как', 'дела']));
+
+//Задание 13.Создайте функцию, которая принимает на вход массив целых чисел,
+// а возвращает массив, содержащий только отрицательные значения.
+
+function minusNumb(arr) {
+    return arr.filter(item => item < 0);
+}
+
+console.log(minusNumb([1, 3, -7, 9, -2]));
+
+//Задание 14. Создайте массив, состоящий из 10 значений. 
+//Значения массива необходимо сгенерировать с помощью метода Math.random() 
+// в диапазоне от 0 до 10.В данном массиве найдите все четные значения и 
+// добавьте их в новый массив. Результат работы программы необходимо вывести 
+// в консоль — это будут два массива: исходный массив и массив с четными значениями.
+
+function random() {
+    return Math.floor(Math.random() * 10);
+}
+const arrNumb = [];
+for (let i = 0; i < 10; i++){
+    arrNumb.push(random());
+}
+const evenNumb = [];
+for (let i = 0; i < arrNumb.length; i++) {
+    if (arrNumb[i] % 2 === 0) {
+        evenNumb.push(arrNumb[i]);
+    }
+}
+
+console.log(arrNumb);
+console.log(evenNumb);
+
+// Задание 15. Создайте массив, состоящий из 6 элементов.
+// Элементы массива необходимо сгенерировать с помощью Math.random() 
+// в диапазоне от 1 до 10.Требуется найти среднее арифметическое этих цифр, 
+// результат программы вывести в консоль.
+
+function random() {
+    return Math.floor(Math.random() * 10);
+}
+const arrayNumb = [];
+for (let i = 0; i < 6; i++){
+    arrayNumb.push(random());
+}
+console.log(arrayNumb);
+console.log(arrayNumb.reduce((a,b) => a + b) / arrayNumb.length);
