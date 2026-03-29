@@ -19,14 +19,15 @@ function miniGames1() {
         }
     }
 }
- function miniGames2() {
-    function getRandomInt() {
-          return Math.floor(Math.random() * 50);
+function miniGames2() {
+    function getRandomInt(min, max) {
+        return Math.Floor(Math.Random() * (max - min + 1)) + min;
+          //return Math.floor(Math.random() * 50);
  }
  const ops = ['+', '-', '*', '/'];
- const op = ops[getRandomInt()];
+ const op = ops[getRandomInt(0, 3)];
  let a, b;
- let userAnswer = prompt(`Сколько будет ${op}?`);
+ //let userAnswer = prompt(`Сколько будет ${op}?`);
  
 
  switch (op) {
@@ -48,22 +49,31 @@ function miniGames1() {
  b = getRandomInt(2, 10);
  while (a% b!== 0) {
  a = getRandomInt(2, 20);
+ b = getRandomInt(2, 2);
 }
  break;
 }
+ let userAnswer = +prompt(`Сколько будет ${op}?`);
+ if (userAnswer === null) {
+            return;
+        }
 
- const question = `${a} ${op} ${b}`;
+ const question = Number(`${a} ${op} ${b}`);
  const correctAnswer = eval(question);
 
- return {
- question: question,
- answer: correctAnswer
-}
+ //return {
+ //question: question,
+ //answer: correctAnswer
+//}
+
 if (question === correctAnswer){
     alert ('Ответ верный');
  } else {
     alert ('Не верно');
  }
-
+return {
+ question: question,
+ answer: correctAnswer
+}
 }
 
