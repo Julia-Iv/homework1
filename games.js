@@ -53,7 +53,7 @@ function miniGames2() {
 }
  break;
 }
- let userAnswer = +prompt(`Сколько будет ${op}?`);
+ let userAnswer = prompt(`Сколько будет ${op}?`);
  if (userAnswer === null) {
             return;
         }
