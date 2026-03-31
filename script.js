@@ -437,7 +437,7 @@ else if (age >= 13)
 
  */
 
-
+/*
  //HOMEWORK 6
 
  //Задание 1. Дан массив: [1, 5, 4, 10, 0, 3].Создайте цикл, который будет
@@ -604,3 +604,90 @@ for (let i = 0; i < 6; i++){
 }
 console.log(arrayNumb);
 console.log(arrayNumb.reduce((a,b) => a + b) / arrayNumb.length);
+
+*/
+
+
+//HOMEWORK 7
+
+//Задание 1. Преобразовать строку 'js'в верхний регистр.
+
+let str = 'js';
+str = str.toUpperCase();
+console.log(str);
+
+//Задание 2. Создать функцию, которая принимает массив строк и строку.
+// Функция должна вернуть новый массив, содержащий только те элементы
+// первого массива, которые начинаются со второй строки. Регистр 
+// символов не влияет на результат.
+
+function filter(arr, str) {
+   const lowerStr = str.toLowerCase();
+return arr.filter(item => item.toLowerCase().startsWith(lowerStr));    
+}
+console.log(filter(['Hello', 'Hi','Goodbay'], 'good'));
+
+//Задание 3. Округлить число 32.58884: До меньшего целого. 
+// До большего целого. До ближайшего целого.
+
+let num = 32.58884;
+console.log(Math.floor(num));
+console.log(Math.ceil(num));
+console.log(Math.round(num));
+
+//Задание 4. Найти минимальное и максимальное значения из чисел
+//  52, 53, 49, 77, 21, 32 и вывести их в консоль.
+
+console.log(Math.min(52, 53, 49, 77, 21, 32));
+console.log(Math.max(52, 53, 49, 77, 21, 32));
+
+
+//Задание 5. Создать функцию, которая выводит в консоль случайное 
+// число от 1 до 10.
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 10) + 1;
+}
+console.log(getRandomNumber());
+
+//Задание 6. Написать функцию, которая принимает целое число и 
+// возвращает массив случайных чисел от 0 до этого числа. 
+// Длина массива должна быть в два раза меньше переданного числа.
+
+function getRandomNumber(num) {
+ return Array.from({ length: Math.floor(num / 2) }, () => Math.floor(Math.random() * num));
+}
+console.log(getRandomNumber(8));
+
+//Задание 7. Создать функцию, которая принимает два целых числа и 
+// возвращает случайное число в этом диапазоне.
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+ }
+console.log(getRandomInt(4, 8));
+
+//Задание 8. Вывести в консоль текущую дату.
+
+let myDate = new Date();
+console.log(myDate);
+
+
+//Задание 9. Создать переменную currentDate, хранящую текущую дату. 
+// Вывести дату, которая наступит через 73 дня после текущей.
+let currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
+
+//Задание 10.
+//Написать функцию, которая принимает дату и возвращает ее в формате:
+//  Дата: [число] [месяц на русском] 
+// [год] — это [день недели на русском].
+// Время: [часы]:[минуты]:[секунды]
+
+function formatDate(date) {
+    const days = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+    const months = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"];
+ 
+}
+

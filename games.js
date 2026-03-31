@@ -48,10 +48,10 @@ function miniGames2() {
  while (a% b!== 0) {
  a = getRandomInt(2, 20);
  b = getRandomInt(2, 2);
+}
  break;
 }
-}
-let userAnswer = +prompt(`Сколько будет ${a} ${op} ${b} = ?`);
+let userAnswer = prompt(`Сколько будет ${a} ${op} ${b} = ?`);
 if (userAnswer === null) {
             return;
         }
