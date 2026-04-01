@@ -607,7 +607,7 @@ console.log(arrayNumb.reduce((a,b) => a + b) / arrayNumb.length);
 
 */
 
-/*
+
 //HOMEWORK 7
 
 //Задание 1. Преобразовать строку 'js'в верхний регистр.
@@ -686,9 +686,17 @@ console.log(currentDate);
 // Время: [часы]:[минуты]:[секунды]
 
 function formatDate(date) {
-    const days = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+    const days = ["вторник", "среда", "четверг", "пятница","суббота","воскресенье","понедельник" ];
     const months = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"];
- 
+    const year = date.getFullYear();
+    const day = date.getDate();
+    const month = date.getMonth();
+    const dayWeek = days[date.getDate()];
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+    return `
+    Дата: ${day} ${months[month]} ${year} - это ${dayWeek} 
+    Время: ${hours}ч${minutes}м${seconds}с`; 
 }
-
-*/
+console.log(formatDate(new Date()));
