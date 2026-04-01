@@ -66,4 +66,23 @@ userAnswer = Number(userAnswer);
  }
  
 }
+function miniGames3() {
+  let input = prompt('Введите текст');
+   
+ // Проверяем, что текст не пустой
+ if (input.trim() === '') {
+ prompt ('Пожалуйста, введите текст!');
+ return;
+}
+ // Переворачиваем текст по буквам
+ input = input.split('');
+ input.reverse();
+ input = input.join('');
+ input.toUpperCase();
+  
+//input.toUpperCase() === word.toUpperCase().split('').reverse().join('');
+   alert (`Перевертыш ${input}`);
+ }
+
+
 
