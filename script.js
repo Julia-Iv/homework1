@@ -607,7 +607,7 @@ console.log(arrayNumb.reduce((a,b) => a + b) / arrayNumb.length);
 
 */
 
-
+/*
 //HOMEWORK 7
 
 //Задание 1. Преобразовать строку 'js'в верхний регистр.
@@ -691,3 +691,4 @@ function formatDate(date) {
  
 }
 
+*/
