@@ -85,4 +85,48 @@ function miniGames3() {
  }
 
 
+function miniGames5() {
+          const quiz = [
+           {
+               question: "Какой цвет неба?",
+               options: ["1. Красный", 
+                         "2. Синий", 
+                         "3. Зеленый"],
+               correctAnswer: 2 // номер правильного ответа
+           },
+           {
+               question: "Сколько дней в неделе?",
+               options: ["1. Шесть", "2. Семь", "3. Восемь"],
+               correctAnswer: 2
+           },
+           {
+               question: "Сколько у человека пальцев на одной руке?",
+               options: ["1. Четыре", "2. Пять", "3. Шесть"],
+               correctAnswer: 2
+           }
+       ];
+       let score = 0;
+    function startQuiz() {    
+    quiz.forEach((item, index) => {
+    // const questionText = prompt(`${index + 1}. ${item.question}`)
+    let questionText = `Вопрос ${index + 1}: ${item.question}\n` + item.options.join('\n');
+   //questionText += ` ${item.options.b}\n`;
+   // questionText += ` ${item.options.b}\n`;
+   // questionText += ` ${item.options.b}`;
+
+    let userAnswer = prompt(questionText);
+        if (parseInt(userAnswer) === item.correctAnswer) {
+      score++;
+        }
+    if (userAnswer && userAnswer.toLowerCase() === item.correctAnswer) {
+      score++;
+    }
+    });
+    
+    alert(`Викторина окончена!\nПравильных ответов: ${score} из ${quiz.length}`);
+}
+
+   startQuiz();
+ 
+    }
 
