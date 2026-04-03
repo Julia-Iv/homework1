@@ -686,12 +686,12 @@ console.log(currentDate);
 // Время: [часы]:[минуты]:[секунды]
 
 function formatDate(date) {
-    const days = ["вторник", "среда", "четверг", "пятница","суббота","воскресенье","понедельник" ];
+    const days = ["воскресенье","понедельник", "вторник", "среда", "четверг", "пятница","суббота"];
     const months = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"];
     const year = date.getFullYear();
     const day = date.getDate();
     const month = date.getMonth();
-    const dayWeek = days[date.getDate()];
+    const dayWeek = days[date.getDay()];
     const hours = date.getHours();
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
