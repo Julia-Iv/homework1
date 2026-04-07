@@ -130,3 +130,27 @@ function miniGames5() {
  
     }
 
+function miniGames4() {
+    const option = ["камень", "ножницы", "бумага"];
+    const randomIndex = Math.floor(Math.random() * 3);
+    return  option[randomIndex];
+        
+}
+function game() {
+    const userPlay = prompt("Камень, ножницы, бумага");
+    const computerPlay = miniGames4();
+    alert (`Компьютер: ${computerPlay}`);
+  if (userPlay === computerPlay) {
+    alert("Ничья!");
+}
+  else if ((userPlay === "камень" && computerPlay === "ножницы") ||
+      (userPlay === "бумага" && computerPlay === "камень") ||
+      (userPlay === "камень" && computerPlay === "бумага") ||
+      (userPlay === "ножницы" && computerPlay === "бумага")) {
+    alert("Вы выиграли!");
+  }
+  else {
+    alert ("Компьютер выиграл!")
+  }
+ }
+    
