@@ -137,7 +137,7 @@ function miniGames4() {
         
 }
 function game() {
-    const userPlay = prompt("Камень, ножницы, бумага");
+    const userPlay = prompt("Камень,  ножницы,  бумага");
     const computerPlay = miniGames4();
     alert (`Компьютер: ${computerPlay}`);
   if (userPlay === computerPlay) {
