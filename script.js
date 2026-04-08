@@ -767,13 +767,12 @@ setTimeout(() => {
 
 function delayForSecond(callback) {
     setTimeout(callback, 1000);
-   callback();
 }
 
 delayForSecond(function () {
    console.log('Привет, Глеб!');
 })
-
+/*
 //Задание 5. 
 // Функция delayForSecond через 1 секунду пишет в консоль 
 // «Прошла одна секунда», а затем вызывает переданный колбэк
@@ -792,8 +791,8 @@ function sayHi (name) {
 // Код выше менять нельзя
 
 // Нужно изменить код ниже:
-delayForSecond(() => sayHi('Глеб'));
-
+delayForSecond(() => sayHi('Антон'));
+*/
 
 
 
