@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class = "title">Задание 1.</h1>
+    <p> Скрытие и показ текста</p>
+    <button class = "button1">Скрыть</button>
+
+    <p class="description">Задание 2. Изменение стиля документа.</p>
+    <button class="button2">Изменить цвет</button>
+
+    <h1 class="title3">Задание 3.</h1>
+    <button class="button3">Изменить текст</button>
+
+    <h1>Задание 4.</h1>
+    <p class="description4">Поиск и изменение элементов по классу.</p>
+    <p class="description4">Поиск и изменение элементов по классу.</p>
+    <p class="description4">Поиск и изменение элементов по классу.</p>
+
+    <h1>Задание 5.</h1>
+    <p class="description5">Работа с querySelectorAll</p>
+    <p class="description5-1">Работа с querySelectorAll</p>
+    <p class="description5-1">Работа с querySelectorAll</p>
+    <p class="description5">Работа с querySelectorAll</p>
+    <p class="description5">Работа с querySelectorAll</p>
+    <p class="description5">Работа с querySelectorAll</p>
+
+    <h1>Задание 6.</h1>
+    <button class="button6">Добавить элемент</button>
+
+    <h1>Задание 7.</h1>
+    <p class="description7">Привет</p>
+    <p class="description7-1">Удаление элемента</p>
+    <p class="description7">Удаление элемента</p>
+    <p class="description7">Удаление элемента</p>
+    <button class="button7">Удалить элемент</button>
+
+
+<script>
+const titleEl = document.querySelector('.title');
+const btnEl = document.querySelector('.button1');
+
+btnEl.addEventListener('click', function(){
+    if(titleEl.style.display === 'none') {
+        titleEl.style.display = 'block';
+    }else {
+        titleEl.style.display ='none';
+    }
+});
+
+const descriptionEl = document.querySelector('.description');
+const btnEl2 = document.querySelector('.button2');
+btnEl2.addEventListener('click', function(){
+descriptionEl.style.color = 'navy';
+});
+const titleEl3 = document.querySelector('.title3');
+const btnEl3 = document.querySelector('.button3');
+btnEl3.addEventListener('click', function(){
+titleEl3.textContent = 'Привет, мир!';
+});
+
+const descriptionEl4 = document.querySelectorAll('.description4');
+
+descriptionEl4.forEach(description4 => {
+   description4.textContent = 'Измененный текст';
+});
+
+const descriptionEl5 = document.querySelectorAll('.description5');
+descriptionEl5.forEach(description5 => {
+   description5.textContent = 'Новый текст';
+});
+
+const newDiv = document.createElement('div');
+const btnEl6 = document.querySelector('.button6');
+btnEl6.addEventListener('click', function(){
+    newDiv.textContent = 'Новый абзац';
+
+document.body.appendChild(newDiv);
+});
+const descriptionEl7 = document.querySelector('.description7');
+const btnEl7 = document.querySelector('.button7');
+btnEl7.addEventListener('click', function() {
+    descriptionEl7.remove()
+});
+
+
+
+
+    
+</script>
+</body>
+</html>
