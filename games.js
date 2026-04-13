@@ -153,4 +153,14 @@ function game() {
     alert ("Компьютер выиграл!")
   }
  }
+ function miniGames6() {
+    const backgroundEl = document.getElementById('games');
+    const gamesBtn6 = document.getElementsById('mini-games6');
+    gamesBtn6.addEventListener('click', () => {
+            // Генерация случайного цвета в формате HEX
+            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            backgroundEl.style.backgroundColor = randomColor;
+        });
+
+ }
     
