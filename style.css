@@ -186,12 +186,17 @@
     border: solid 1px #000;
 
 }
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #BCEC30;
+    margin-top: 156px;
+}
 .animation {
     display: flex;
-    gap: 51px;
-    max-width: 100%;
-    /*width: 3219.999808073044;*/
-height: 89.99999463558197;
+    gap: 10px;
+   /* width: 3219.999808073044;
+height: 89.99999463558197;*/
 top: 710px;
 left: -30px;
 border-width: 1px;
@@ -199,17 +204,15 @@ padding-top: 27px;
 padding-right: 49px;
 padding-bottom: 27px;
 padding-left: 49px;
-gap: 10px;
 opacity: 1;
-background-color:#BCEC30;
-overflow: hidden;
+animation: scroll-left 10s linear infinite;
 }
-@keyframes animation {
+@keyframes scroll-left {
     from {
-        transform: translate(0%);
+        transform: translateX(0%);
     }
     to {
-        transform: translate(-100%);
+        transform: translateX(100%);
     }
 
 }
@@ -223,6 +226,13 @@ letter-spacing: 4%;
 vertical-align: middle;
 text-transform: uppercase;
 color: #202027;
+}
+
+.animation__img {
+    width: 36px;
+height: 36px;
+padding-left: 25px;
+padding-right: 25px;
 
 }
 .games {
@@ -1172,6 +1182,56 @@ text-align: center;
    /*.top__description {
     width: 520px;
    }*/
+   .wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #BCEC30;
+    margin-top: 156px;
+}
+.animation {
+    display: flex;
+    gap: 10px;
+   /* width: 3219.999808073044;
+height: 89.99999463558197;*/
+top: 710px;
+left: -30px;
+border-width: 1px;
+padding-top: 27px;
+padding-right: 49px;
+padding-bottom: 27px;
+padding-left: 49px;
+opacity: 1;
+animation: scroll-left 10s linear infinite;
+}
+@keyframes scroll-left {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+
+}
+.animation__title {
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+line-height: 110.00000000000001%;
+letter-spacing: 4%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #202027;
+}
+
+.animation__img {
+    width: 36px;
+height: 36px;
+padding-left: 25px;
+padding-right: 25px;
+
+}
+
    .games__title {
     font-size: 48px;
    }
