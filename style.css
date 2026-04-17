@@ -187,6 +187,8 @@
 
 }
 .wrapper {
+    position: relative;
+    z-index: 1;
     width: 100%;
     overflow: hidden;
     background-color: #BCEC30;
@@ -662,7 +664,7 @@ padding-right: 25px;
     padding-top: 61px;
 
 }
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
    .center {
     padding-left: calc(50% - 464px);
     padding-right: calc(50% - 464px);
@@ -683,6 +685,8 @@ padding-right: 25px;
     width: 520px;
    }*/
 .wrapper {
+    position: relative;
+    z-index: 1;
     margin-top: 95px;
 }
 .animation {
@@ -749,6 +753,87 @@ padding-right: 27px;
 }
 
 }
+
+@media (max-width: 980px){
+ .center {
+    padding-left: calc(50% - 372px);
+    padding-right: calc(50% - 372px);    
+}    
+.top__title {
+    display: flex;
+    width: 550px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+.top__description {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 496px;
+    height: 60px;
+    white-space: normal;
+    margin-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.form-button {
+    margin-left: 105px;
+}
+.top__star4 {
+    right: 144px;
+}
+.top__star5 {
+    right: 255px;
+}
+.top__vector4780 {
+    display: none;
+}
+.top__vector4781 {
+    display: none;
+}
+.top__vector4782 {
+    display: none;
+}
+.top__vector4788 {
+    display: none;
+}
+.top__vector {
+    width: 350px;
+}
+.games-mg__title {
+    width: 744px;
+}
+.games-mg__catalog {
+    width: 744px;
+}
+.catalog-mg {
+    width: 744px;
+}
+.catalog-mg__description {
+    width: 372px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.catalog-mg__description1 {
+    width: 372px;
+    
+}
+.catalog-mg__img {
+    width: 320px;
+}
+}
+
 @media (max-width: 767px) {   
     .center {
     padding-left: calc(50% - 171.5px);
