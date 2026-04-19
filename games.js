@@ -1,4 +1,12 @@
 function miniGames1() {
+    const gamesSection1 = document.getElementById('games1');
+    const gamesButton1  = document.getElementById('gamesButton1');
+// Кнопка, которая ведет к игре
+    gamesButton1.addEventListener('click', () => {
+    gamesSection1.scrollIntoView({ 
+        behavior: 'smooth'
+    });
+});
     let randomNumber = Math.floor(Math.random() * 100) + 1;
     //if (randomNumber === null) {
       //      return;
@@ -18,15 +26,7 @@ function miniGames1() {
             alert ("Твое число меньше загаданного, попробуй еще угадать!");
         }
     }
-    const gamesSection = document.getElementById('games');
-
-// Кнопка, которая ведет к играм
-someButton.addEventListener('click', () => {
-    gamesSection.scrollIntoView({ 
-        behavior: 'smooth', 
-        block: 'start' // Прокрутит так, чтобы начало блока было сверху
-    });
-});
+    
 }
 function miniGames2() {
     function getRandomInt(min, max) {
