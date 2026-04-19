@@ -18,6 +18,15 @@ function miniGames1() {
             alert ("Твое число меньше загаданного, попробуй еще угадать!");
         }
     }
+    const gamesSection = document.getElementById('games');
+
+// Кнопка, которая ведет к играм
+someButton.addEventListener('click', () => {
+    gamesSection.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start' // Прокрутит так, чтобы начало блока было сверху
+    });
+});
 }
 function miniGames2() {
     function getRandomInt(min, max) {
@@ -154,13 +163,24 @@ function game() {
   }
  }
  function miniGames6() {
-    const backgroundEl = document.getElementById('games');
-    const gamesBtn6 = document.getElementsByClassName('catalog-mg__button');
+    const backgroundEl1 = document.getElementById('games6');
+    const backgroundEl2 = document.getElementById('mob-games6');
+
+    const gamesBtn6 = document.getElementById('gamesButton6');
+    const mobGamesBtn6 = document.getElementById('mob-gamesButton6');
+
     gamesBtn6.addEventListener('click', () => {
             // Генерация случайного цвета в формате HEX
-            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-            backgroundEl.style.backgroundColor = randomColor;
+            const randomColor1 = '#' + Math.floor(Math.random()*16777215).toString(16);
+            backgroundEl1.style.backgroundColor = randomColor1;
+
+        });
+    mobGamesBtn6.addEventListener('click', () => {
+            // Генерация случайного цвета в формате HEX
+            const randomColor2 = '#' + Math.floor(Math.random()*16777215).toString(16);
+            backgroundEl2.style.backgroundColor = randomColor2;
+
         });
 
  }
-    
+    miniGames6();

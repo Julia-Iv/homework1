@@ -128,7 +128,7 @@
         </article>
     </div>
     </section>
-    <section class="games-mg center">
+    <section id="games-mg" class="games-mg center">
         <div class="games-mg__star">
             <img class="games-mg__star6" src="./image/Star6-minigames.png" alt="описание">
             <img class="games-mg__star7" src="./image/Star7-minigames.png" alt="описание">
@@ -186,7 +186,10 @@
                     <h2 class="catalog-mg__title1">Генератор случайных 
 цветов</h2>
                     <p class="catalog-mg__description1">Сыграй в популярную игру против компьютера.</p>
-                    <a href="#" class="catalog-mg__button" onclick = "miniGames6()">Играть!</a>
+                   <button type="button" class="catalog-mg__button" id="gamesButton6" onclick = "miniGames6()">Играть!</button>
+
+                    <!-- <a href="#" class="catalog-mg__button" onclick = "miniGames6()">Играть!</a>
+                -->
                 </div>
                  </article>
         </div>
@@ -227,11 +230,13 @@
             <p class="mob-catalog1__description">Отвечай на вопросы викторины с вариантами ответов.</p>
             <a href="#" class="mob-catalog1__button" onclick="miniGames5()">Играть!</a>    
         </article>
-        <article class="mob-catalog3">
+        <article id="mob-games6" class="mob-catalog3">
             <img src="./image/mob-games-mg6.png" alt="игра№6" class="mob-catalog3__img">
             <h3 class="mob-catalog3__title">Генератор случайных цветов</h3>
             <p class="mob-catalog3__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
-            <a href="#" class="mob-catalog3__button" onclick="miniGames6()">Играть!</a>    
+            <button type="button" class="mob-catalog3__button" id="mob-gamesButton6" onclick = "miniGames6()">Играть!</button>
+
+           <!-- <a href="#" class="mob-catalog3__button" onclick="miniGames6()">Играть!</a>  -->
         </article>
         </div>
         </section>

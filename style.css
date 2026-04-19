@@ -243,7 +243,7 @@ padding-right: 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 1470px;
+    height: 1500px;
     position: relative;
     z-index: 1;
 }
@@ -681,6 +681,9 @@ padding-right: 25px;
     max-width: 670px;
     font-size: 48px;
    }
+   .top__content {
+    width: 767px;
+   }
    /*.top__description {
     width: 520px;
    }*/
@@ -759,6 +762,9 @@ padding-right: 27px;
     padding-left: calc(50% - 372px);
     padding-right: calc(50% - 372px);    
 }    
+.top__content {
+    width: 750px;
+}
 .top__title {
     display: flex;
     width: 550px;
@@ -1344,7 +1350,7 @@ padding-right: 27px;
     font-size: 16px;
     color: #ffff;
     text-align: center;
-    margin-top: 48px;
+    /*margin-top: 48px;*/
     text-decoration: none;
 }
 .mob-catalog3__button:hover {
