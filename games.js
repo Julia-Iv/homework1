@@ -1,12 +1,12 @@
 function miniGames1() {
-    const gamesSection1 = document.getElementById('games1');
+   /* const gamesSection1 = document.getElementById('games1');
     const gamesButton1  = document.getElementById('gamesButton1');
 // Кнопка, которая ведет к игре
     gamesButton1.addEventListener('click', () => {
     gamesSection1.scrollIntoView({ 
         behavior: 'smooth'
     });
-});
+});*/
     let randomNumber = Math.floor(Math.random() * 100) + 1;
     //if (randomNumber === null) {
       //      return;
