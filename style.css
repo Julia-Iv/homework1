@@ -125,7 +125,7 @@ html {
 }
 
 .top__title {
-    white-space: pre-wrap;
+    /*white-space: pre-wrap;*/
     max-width: 769px;
     font-family: Montserrat;
     font-weight: 700;
@@ -410,7 +410,7 @@ padding-right: 25px;
     letter-spacing: 0px;
     vertical-align: middle;
     margin-left: 32px;
-    margin-top: -16px;
+    margin-top: 16px;
     color: #202027;
 }
 
@@ -472,7 +472,7 @@ padding-right: 25px;
     letter-spacing: 0px;
     vertical-align: middle;
     margin-left: 32px;
-    margin-top: -16px;
+    margin-top: 16px;
     color: #202027;
 }
 
@@ -580,7 +580,7 @@ padding-right: 25px;
     padding-left: 48px;
     padding-top: 48px;
     padding-right: 48px;
-    padding-bottom: 305px;
+   /* padding-bottom: 305px;*/
 }
 .catalog-mg__title1 {
     white-space: pre-wrap;
