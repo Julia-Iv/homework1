@@ -1,16 +1,5 @@
 function miniGames1() {
-   /* const gamesSection1 = document.getElementById('games1');
-    const gamesButton1  = document.getElementById('gamesButton1');
-// Кнопка, которая ведет к игре
-    gamesButton1.addEventListener('click', () => {
-    gamesSection1.scrollIntoView({ 
-        behavior: 'smooth'
-    });
-});*/
     let randomNumber = Math.floor(Math.random() * 100) + 1;
-    //if (randomNumber === null) {
-      //      return;
-        //}
     while (true) {
         let guessNumber = prompt ("Угадай число от 1 до 100");
         if (guessNumber === null) {
@@ -117,12 +106,8 @@ function miniGames5() {
        let score = 0;
     function startQuiz() {    
     quiz.forEach((item, index) => {
-    // const questionText = prompt(`${index + 1}. ${item.question}`)
     let questionText = `Вопрос ${index + 1}: ${item.question}\n` + item.options.join('\n');
-   //questionText += ` ${item.options.b}\n`;
-   // questionText += ` ${item.options.b}\n`;
-   // questionText += ` ${item.options.b}`;
-
+   
     let userAnswer = prompt(questionText);
         if (parseInt(userAnswer) === item.correctAnswer) {
       score++;
